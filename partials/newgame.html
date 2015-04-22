@@ -1,5 +1,7 @@
 <h2>Welcome to Portalandia</h2>
-<form>
+<div class="row">
+<div class="col-lg-12">
+<form ng-submit="addUser()" class="form-inline" role="form">
     <input type="text" ng-model="userName" class="form-control" placeholder="What do you call yourself?">
     <input type="text" ng-model="userHomeland" class="form-control" placeholder="Where do you come from?">
     <input type="text" ng-model="userType" class="form-control" placeholder="What is your greatest weakness?">
@@ -10,4 +12,7 @@
       <option value=4>Swarm of clowns</option>
       <option value=5>E T E R N I T Y</option>
     </select>
+    <button type="submit">create</button>
 </form>
+</div>
+</div>

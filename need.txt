@@ -1,0 +1,3 @@
+Adventures on the street in Portaland
+form: ask for age, name, job/class
+>>creates new person, need person factory, person controller
