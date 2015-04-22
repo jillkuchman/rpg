@@ -1,18 +1,20 @@
 <h2>Welcome to Portalandia</h2>
 <div class="row">
 <div class="col-lg-12">
-<form ng-submit="addUser()" class="form-inline" role="form">
-    <input type="text" ng-model="userName" class="form-control" placeholder="What do you call yourself?">
-    <input type="text" ng-model="userHomeland" class="form-control" placeholder="Where do you come from?">
-    <input type="text" ng-model="userType" class="form-control" placeholder="What is your greatest weakness?">
-    <select class="form-control" ng-model="worstNightmare">
+<form ng-submit="addUser()" role="form">
+    <input class="textbox" type="text" ng-model="userName" class="form-control" placeholder="What do you call yourself?"><br/>
+    <input class="textbox" type="text" ng-model="userHomeland" class="form-control" placeholder="Where do you come from?"><br/>
+    <input  class="textbox" type="text" ng-model="userType" class="form-control" placeholder="What is your greatest weakness?"><br/>
+    <select class="form-control textbox" ng-model="worstNightmare">
+      <option value="" selected disabled>What is your worst nightmare?</option>
       <option value=1>Cheap Socks</option>
       <option value=2>Drowning in blood</option>
       <option value=3>Buried alive</option>
       <option value=4>Swarm of clowns</option>
       <option value=5>E T E R N I T Y</option>
     </select>
-    <button type="submit">create</button>
+    <br/>
+    <button class="btn btn-danger" type="submit">create</button>
 </form>
 </div>
 </div>

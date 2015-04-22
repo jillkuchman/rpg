@@ -1,6 +1,17 @@
 <div class="row">
     <div class="col-md-6">
-        Welcome, {{ User.name }}<br>
+    <h2>Welcome, {{ User.name }}<br></h2>
+    <div class="userInfo">HP:{{ User.hp }}<br/>
+
+    </div>
+    </div>
+    <div class="inventory">
+        <ul ng-show="inventory.length">
+            <li ng-repeat="item in User.inventory">
+                {{ item.object }}
+            </li>
+        </ul>
+    </div>
 
     </div>
 </div>
