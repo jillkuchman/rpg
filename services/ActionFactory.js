@@ -11,10 +11,10 @@ rpg.factory("ActionFactory", function ActionFactory($state) {
         }
         else if(roomId == "TrashCan" && direction == "back") {
             $state.go("room1");
-
         }
-
-
+        else if(roomId == "TrashCan" && direction == "search trash can") {
+            alert("okay");
+        }
     };
 
 
