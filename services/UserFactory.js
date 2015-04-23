@@ -7,7 +7,7 @@ rpg.factory('UserFactory', function UserFactory() {
         factory.user.homeland = homeland;
         factory.user.type = type;
         factory.user.hp = 10;
-        factory.user.inventory = [];
+        factory.user.inventory = [{ map: 0}, { lantern: 0}];
         // this.user.push({name: name, homeland: homeland, type: type, hp: 10, inventory: []});
 
     };

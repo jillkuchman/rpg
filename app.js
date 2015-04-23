@@ -16,6 +16,15 @@ rpg.config(function($stateProvider) {
         templateUrl: "partials/TrashCan.html",
         controller: "Room1Ctrl"
     });
+    $stateProvider.state('TrashCan.search', {
+        url: "/trashcansearch",
+        templateUrl: "partials/TrashCan.search.html",
+        controller: "Room1Ctrl"
+    });
+    // $stateProvider.state('outOfAlley', {
+    //
+    // });
+
 
 
 });

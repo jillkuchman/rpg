@@ -8,20 +8,21 @@
 </div>
 
 <div class="row">
-    <p>You wake up in an alley on MLK. Your pockets are empty. There is a dumpster to your right. What would you like to do?</p>
+    <p>You wake up in an alley on MLK. Your pockets are empty. There is a dumpster to your left. What would you like to do?</p>
 
     <div>
         <form ng-submit="takeAction()">
-            <input type="text" ng-model="actionButton"/>
+            <input type="text" ng-model="actionButton" />
             <button type="submit">go</button>
         </form>
     </div>
 </div>
 
+<span class="new-command">I don't understand the command. Please try again.</span>
 
 <div>
     <div class="inventory">
-        <ul ng-show="inventory.length">
+        <ul ng-show="User.inventory.length">
             <li ng-repeat="item in User.inventory">
                 {{ item.object }}
             </li>
