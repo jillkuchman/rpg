@@ -10,7 +10,7 @@ rpg.controller("UserCtrl", function UserCtrl($scope, $state, UserFactory) {
         $scope.userName = null;
         $scope.userHomeland = null;
         $scope.userType = null;
-        $state.go('room1');
-        
+        $state.go('room1', {roomId: 1});
+
     };
 });
