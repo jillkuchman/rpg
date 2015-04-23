@@ -11,5 +11,6 @@ rpg.controller("UserCtrl", function UserCtrl($scope, $state, UserFactory) {
         $scope.userHomeland = null;
         $scope.userType = null;
         $state.go('room1');
+        
     };
 });

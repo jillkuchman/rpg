@@ -9,7 +9,12 @@ rpg.config(function($stateProvider) {
     $stateProvider.state('room1', {
         url: "/room1",
         templateUrl: "partials/Room1.html",
-        controller: "UserCtrl"
+        controller: "Room1Ctrl"
+    });
+    $stateProvider.state('TrashCan', {
+        url: "/trashcan",
+        templateUrl: "partials/TrashCan.html",
+        controller: "Room1Ctrl"
     });
 
 
