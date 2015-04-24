@@ -1,7 +1,7 @@
 ##Portalandia
 
 ###Developers
-Abeer Khakwani && Jill Kuchman
+Abeer Khakwani & Jill Kuchman
 
 ###Date
 23 April 2015
@@ -11,14 +11,16 @@ This app is a text-based RPG game.
 
 ###Use and Editing
 You can use and/or edit this application by:<br />
-1. Cloning this project to the directory of your choice<br />
-2. Opening the project in your favorite text-editor (optional)<br />
-3. For Mac Users:
-    In your project folder in the terminal, enter $ python -m SimpleHTTPServer and then navigate to localhost:8000.
-4. Open and point your browser to index.html<br />
+<ol>
+<li>Cloning this project to the directory of your choice</li>
+<li>Opening the project in your favorite text-editor (optional)</li>
+<li>For Mac Users:
+    In your project folder in the terminal, enter $ python -m SimpleHTTPServer and then navigate to localhost:8000.</li>
+<li>Open and point your browser to index.html</li>
+</ol>
 *(ex: file:///project-directory/index.html)*
 
-###Copyright (c) 2015 Abeer Khakwani && Jill Kuchman
+###Copyright (c) 2015 Abeer Khakwani & Jill Kuchman
 
 ####License: [MIT](https://github.com/twbs/bootstrap/blob/master/LICENSE)
 
