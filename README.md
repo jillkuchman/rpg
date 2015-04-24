@@ -7,7 +7,7 @@ Abeer Khakwani & Jill Kuchman
 23 April 2015
 
 ###Description
-This app is a text-based RPG game.
+This app is a text-based RPG game. The code was completed in one day not not currently finished.
 
 ###Use and Editing
 You can use and/or edit this application by:<br />
